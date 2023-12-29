@@ -13,7 +13,7 @@ using std::string;
 class Mytype
 //class Person	// defaults to private
 {
-//public:		
+public:		// required for class Mytype which is private
 	void foo() {}
 	//Person()		// Constructor 
 	//{
@@ -28,7 +28,7 @@ class Mytype
 void main()
 {
 	Mytype instance;
-	instance.foo();
+	instance.foo();		// error in class Mytype which is a private
 	//cout << "Before the scoped block" << endl;
 	//Person person;
 	//cout << "After the scoped block" << endl;
