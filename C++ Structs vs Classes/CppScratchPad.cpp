@@ -4,6 +4,37 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// ------------------------------- C++ Structs vs Classes -------------------------------
+//ref link:https://www.youtube.com/watch?v=3LHmBMdKkyI&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ------------------------------------ C++ Why The Semicolon After a Class Declaration ----------------------------------
 //ref linK:https://www.youtube.com/watch?v=E-309a2ngsY&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=3
 
@@ -11,32 +42,32 @@ using std::string;
 // At the end of a declaration of a data type you put a semicolon.
 // A class is a data type.
 
-struct MyType
-{
-	void foo() {}
-};		// semicolon here -> means its required
-
-int myInt;				// int 4 bytes
-float anotherDataElement;
-
-class MyClass		// Declaring a class called MyClass
-{
-};
-//} instance;		// for C++	just use a semicolon at the end of a class
-
-MyClass anotherClass;		// anotehrClass is an instance of MyClass
-
-//int main()
+//struct MyType
 //{
-//	return 0;
+//	void foo() {}
+//};		// semicolon here -> means its required
+//
+//int myInt;				// int 4 bytes
+//float anotherDataElement;
+//
+//class MyClass		// Declaring a class called MyClass
+//{
+//};
+////} instance;		// for C++	just use a semicolon at the end of a class
+//
+//MyClass anotherClass;		// anotehrClass is an instance of MyClass
+//
+////int main()
+////{
+////	return 0;
+////}
+//
+//void main()
+//{
+//	myInt = 5;
+//	//MyType instance;
+//	//instance.foo();
 //}
-
-void main()
-{
-	myInt = 5;
-	//MyType instance;
-	//instance.foo();
-}
 
 
 
