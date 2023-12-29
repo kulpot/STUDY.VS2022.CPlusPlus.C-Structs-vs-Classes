@@ -9,10 +9,11 @@ using std::string;
 
 // C++ default accessability 
 
-struct Mytype		// defaults to public
+//struct Mytype		// defaults to public
+class Mytype
 //class Person	// defaults to private
 {
-public:
+//public:		
 	void foo() {}
 	//Person()		// Constructor 
 	//{
