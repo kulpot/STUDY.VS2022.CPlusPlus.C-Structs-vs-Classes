@@ -9,11 +9,11 @@ using std::string;
 
 // C++ default accessability 
 
-struct Person		// defaults to public
+struct Mytype		// defaults to public
 //class Person	// defaults to private
 {
 public:
-
+	void foo() {}
 	//Person()		// Constructor 
 	//{
 	//	cout << "Person()" << endl;
@@ -26,9 +26,11 @@ public:
 
 void main()
 {
-	cout << "Before the scoped block" << endl;
-	Person person;
-	cout << "After the scoped block" << endl;
+	Mytype instance;
+	instance.foo();
+	//cout << "Before the scoped block" << endl;
+	//Person person;
+	//cout << "After the scoped block" << endl;
 }
 
 
