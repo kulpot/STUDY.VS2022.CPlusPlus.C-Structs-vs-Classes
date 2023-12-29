@@ -7,7 +7,25 @@ using std::string;
 // ------------------------------- C++ Structs vs Classes -------------------------------
 //ref link:https://www.youtube.com/watch?v=3LHmBMdKkyI&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=4
 
+class Person
+{
+public:
+	Person()		// Constructor 
+	{
+		cout << "Person()" << endl;
+	}
+	~Person()				// Destructor
+	{
+		cout << "~Person()" << endl;
+	}
+};
 
+void main()
+{
+	cout << "Before the scoped block" << endl;
+	Person person;
+	cout << "After the scoped block" << endl;
+}
 
 
 
