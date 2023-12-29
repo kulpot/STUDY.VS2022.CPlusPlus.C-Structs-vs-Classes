@@ -7,17 +7,21 @@ using std::string;
 // ------------------------------- C++ Structs vs Classes -------------------------------
 //ref link:https://www.youtube.com/watch?v=3LHmBMdKkyI&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=4
 
-class Person
+// C++ default accessability 
+
+struct Person		// defaults to public
+//class Person	// defaults to private
 {
 public:
-	Person()		// Constructor 
-	{
-		cout << "Person()" << endl;
-	}
-	~Person()				// Destructor
-	{
-		cout << "~Person()" << endl;
-	}
+
+	//Person()		// Constructor 
+	//{
+	//	cout << "Person()" << endl;
+	//}
+	//~Person()				// Destructor
+	//{
+	//	cout << "~Person()" << endl;
+	//}
 };
 
 void main()
